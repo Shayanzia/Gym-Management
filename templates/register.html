@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Mechanicc</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Body Mechanic</h1>
+        <nav>
+            <a href="index.html" >Home</a>
+            <a href="about.html">About Us</a>
+            <a href="membership.html">Membership</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="service.html">Service</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="card">
+    <h2 class="title">Register</h2>
+
+    <form method="POST" class="form-box">
+
+        <label>Full Name</label>
+        <input type="text" name="fullname" required>
+
+        <label>Email</label>
+        <input type="email" name="email" required>
+
+        <label>Username</label>
+        <input type="text" name="username" required>
+
+        <label>Password</label>
+        <input type="password" name="password" required>
+
+        <button type="submit">Create Account</button>
+    </form>
+    <p>Already have an account? <a href="login.html">Login here</a></p>
+</div>
+    </main>
+    </body>
+</html>

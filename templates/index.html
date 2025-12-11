@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Mechanicc</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Body Mechanic</h1>
+        <nav>
+            <a href="index.html" >Home</a>
+            <a href="about.html">About Us</a>
+            <a href="membership.html">Membership</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="service.html">Service</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Welcome to Body Mechanic</h2>
+        <p>At Body Mechanic, we believe fitness is not just about lifting weights — it’s about building strength, confidence, and a healthy lifestyle.</p>
+        <p>We offer personalized training plans and a supportive community to help you reach your fitness goals.</p>
+        <p><b>Train hard. Stay strong. Feel better every day!</b></p>
+
+        <h3>Our Highlights</h3>
+        <div class="highlights">
+            <div class="highlight-card">
+                <h4>Modern Equipment</h4>
+                <p>State-of-the-art machines for all fitness levels.</p>
+            </div>
+            <div class="highlight-card">
+                <h4>Professional Trainers</h4>
+                <p>Certified trainers to guide and motivate you.</p>
+            </div>
+            <div class="highlight-card">
+                <h4>Group Classes</h4>
+                <p>Yoga, Zumba, HIIT, and more to keep workouts fun.</p>
+            </div>
+            <div class="highlight-card">
+                <h4>Flexible Membership</h4>
+                <p>Plans tailored to fit your schedule and budget.</p>
+            </div>
+            <div>
+                <h2>Our Gym Gallery</h2>
+        <p>Check out our gym environment and facilities!</p>
+        <div class="gallery">
+            <img src="{{ url_for('static', filename='images/workout.jpg') }}">
+            <img src="{{ url_for('static', filename='images/cardio.jpg') }}">
+            <img src="{{ url_for('static', filename='images/weight.jpg') }}">
+            <img src="{{ url_for('static', filename='images/locker.jpg') }}">
+        </div>
+            </div>
+        </div>
+    <footer>
+        <p>Body Mechanic</p>
+    </footer>
+</body>
+</html>
