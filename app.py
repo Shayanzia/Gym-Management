@@ -3,10 +3,6 @@ from flask import Flask, render_template, request, redirect, url_for
 app = Flask(__name__)
 
 @app.route('/')
-def pageFirst():
-    return "Welcome to the First Page!"
-
-@app.route('/myHome')
 def home():
     return render_template('index.html')
 
