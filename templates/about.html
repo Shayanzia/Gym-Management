@@ -10,14 +10,14 @@
     <header>
         <h1>Body Mechanic</h1>
         <nav>
-            <a href="index.html" >Home</a>
-            <a href="about.html">About Us</a>
-            <a href="membership.html">Membership</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="service.html">Service</a>
-            <a href="contact.html">Contact</a>
-            <a href="login.html">Login</a>
-            <a href="register.html">Register</a>
+            <a href="{{ url_for('home') }}">Home</a>
+            <a href="{{ url_for('about') }}">About Us</a>
+            <a href="{{ url_for('membership') }}">Membership</a>
+            <a href="{{ url_for('gallery') }}">Gallery</a>
+            <a href="{{ url_for('service') }}">Services</a>
+            <a href="{{ url_for('contact') }}">Contact</a>
+            <a href="{{ url_for('login') }}">Login</a>
+            <a href="{{ url_for('register') }}">Register</a>
         </nav>
     </header>
 
