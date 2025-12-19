@@ -14,10 +14,6 @@ def about():
 def membership():
     return render_template('membership.html')
 
-@app.route('/gallery')
-def gallery():
-    return render_template('gallery.html')
-
 @app.route('/service')
 def service():
     return render_template('service.html')
